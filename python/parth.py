@@ -1,92 +1,117 @@
-        # import calendar
-
-# year = int(input("enter year:"))
-# month = int(input("enter month:"))
-
-# cal =calendar.month(year,month)
-# print(cal)
-
-       # symple print function
-# print ("hello python")
-
-       # # addition
-# num1 = float(input("enter the frist number for addition:"))
-# num2 = float(input("enter the secound number for addition:"))
-
-# sum_result = num1+num2
-# print(f"sum:{num1}+{num2}={sum_result}")
 
 
-      # # multiplication
-# num1 = int(input("enter frist number:"))
-# num2 = int(input("enter secound number:"))
-
-# sum_result=num1*num2
-# print(f"multiplication:{num1}*{num2}={sum_result}")
+# list = [1,2,3,4,5,6,7]
+# list.insert(7,8)
+# print(list)
 
 
-      # # division
-# num1 = int(input("enter frist number:"))
-# num2 = int(input("enter secound number:"))
 
-# sum_result=num1/num2
-# print(f"division:{num1}/{num2}={sum_result}")
-
-
-       # # subtraction
-# num1 = int(input("enter frist number:"))
-# num2 = int(input("enter secound number:"))
-
-# sum_result=num1-num2
-# print(f"division:{num1}-{num2}={sum_result}")
+# information = {
+#     "name":"parth bhagat",
+#     "age":27,
+#     "mo no":9011494385,
+#     "address":"ahemdabad"
+# }
+# print(information)
 
 
-      # random number
-# import random
-# print(f"rendom number:{random.randint(1, 100)}")
+# frist_name = input("enter your name:")
+# last_name = input("enter your last name:")
+# print("hello",last_name,frist_name)
 
 
-       # # Odd or even number check
-# num = int(input("Enter any number: "))
+                #   cafe orderd menu
+# menu = {
+#     "pizza":100,
+#     "sandwich":50,
+#     "pasta":60,
+#     "coffi":40,
+#     "cold coffi":100
+# }
+# print("----------welcome to our cafe------------")
+# print(" 1.pizza:         100\n 2.sandwich:         50\n 3.pasta:      60\n 4.coffi:       40\n 5.cold coffi:        100")
 
-# if num % 2 == 0:
-#     print(f"This is an even number.")
+# order_total = 0
+# item1 = input("enter name of order")
+# if item1 in menu:
+#     order_total+= menu[item1]
+#     print(f"your iteam {item1} has been added")
+
 # else:
-#     print(f"This is an odd number.")
+#     print(f"your iteam {item1} not avalable")
+# anather_order = input("do you want to add anather order? (yes/no)")
+# if anather_order == "yes":
+#         item2 = input("enter the name of secound iteam =")
+# if item2 in menu:
+#  order_total+=menu [item2]
+#  print(f"iteam2 {item2} has been added")
+# else:
+#  print(f"your item {item2} not avalable")
+# print(f"plase total amount to you pay {order_total} rs ")
 
 
-        # # swapping
-# a=10
-# b=15
 
-# # swapping
-# a,b = b,a
-# print ("after swaping")
-# print ("a=",a)
-# print ("b=",b)
+# print my name 10 time
 
-
-         # # multiplation table
-# num = int(input("multiplation table"))
-# for i in range(1,11):
-#     print(f"{num}*{i}={num*i}")
-
-        # patterns
-# print("*")
-# print("**")
-# print("***")
-# print("**")
-# print("*")
-
-            # display a formatted massage
-# name = (input("name" ))
-# age = (input("age" ))
-# hobby = (input("hobby" ))
-# print("Hello,"+ name +"!")
-# print("At "+ age + ",enjoying")
-# print(hobby + " sounds fun!")
+# name = input("enter your name :")
+# x = 1
+# while x <=10:
+#     print(x)
+#     x = x + 1
 
 
+
+#       multiplaction table using loop
+# num =int(input("enter the num:"))
+# x = 1
+# while x <=10:
+#     print(f"{num}*{x}={num*x}")
+#     x = x + 1
+
+
+
+
+    #   nested for loop 
+# x = 1
+# for x in range (1,5):
+#  for j in range (1,5):
+#     print("*",end=" ")
+#  print()
+
+
+
+#  print this pattern
+"""
+*
+**
+***
+****
+*****
+"""
+# r = 5
+# for x in range (r,0,-1):
+#  for j in range (x):
+#     print("*",end=" ")
+#  print()
+
+
+
+
+#  r = 5
+# for x in range (1,r+1):
+#  for j in range (1,x+1):
+#     print("*",end=" ")
+#  print()
+
+
+
+r = 6
+for x in range(1,r):
+   for j in range(1, x + 1):
+      print(j ,end=" ")
+   print()
+
+    
 
 
 
